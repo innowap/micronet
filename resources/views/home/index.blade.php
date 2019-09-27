@@ -9,82 +9,29 @@
 
 
 	<!-- Section: intro -->
-    <section id="intro" class="intro">
+    <section id="intro" class="intro ">
 		<div class="intro-content">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6">
-					<div class="wow fadeInDown" data-wow-offset="0" data-wow-delay="0.1s">
-					<h2 class="h-ultra">Medicio medical group</h2>
-					</div>
-					<div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.1s">
-					<h4 class="h-light">Provide <span class="color">best quality healthcare</span> for you</h4>
-					</div>
-						<div class="well well-trans">
-						<div class="wow fadeInRight" data-wow-delay="0.1s">
+                    <div class="col-md-12">
+                       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <img src="img/banner.jpg" class="img-responsive" alt="">
+                                </div>
 
-						<ul class="lead-list">
-							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Affordable monthly premium packages</strong><br />Lorem ipsum dolor sit amet, in verterem persecuti vix, sit te meis</span></li>
-							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Choose your favourite doctor</strong><br />Sit zril sanctus scaevola ei, ea usu movet graeco</span></li>
-							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Only use friendly environment</strong><br />Wisi lobortis eos ex, per at movet delectus, qui no vocent deleniti</span></li>
-						</ul>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            </div>
+                    </div>
 
-						</div>
-						</div>
-
-
-					</div>
-					<div class="col-lg-6">
-						<div class="form-wrapper">
-						<div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.2s">
-
-							<div class="panel panel-skin">
-							<div class="panel-heading">
-									<h3 class="panel-title"><span class="fa fa-pencil-square-o"></span> Make an appoinment <small>(It's free!)</small></h3>
-									</div>
-									<div class="panel-body">
-									<form role="form" class="lead">
-										<div class="row">
-											<div class="col-xs-6 col-sm-6 col-md-6">
-												<div class="form-group">
-													<label>First Name</label>
-													<input type="text" name="first_name" id="first_name" class="form-control input-md">
-												</div>
-											</div>
-											<div class="col-xs-6 col-sm-6 col-md-6">
-												<div class="form-group">
-													<label>Last Name</label>
-													<input type="text" name="last_name" id="last_name" class="form-control input-md">
-												</div>
-											</div>
-										</div>
-
-										<div class="row">
-											<div class="col-xs-6 col-sm-6 col-md-6">
-												<div class="form-group">
-													<label>Email</label>
-													<input type="email" name="email" id="email" class="form-control input-md">
-												</div>
-											</div>
-											<div class="col-xs-6 col-sm-6 col-md-6">
-												<div class="form-group">
-													<label>Phone number</label>
-													<input type="text" name="phone" id="phone" class="form-control input-md">
-												</div>
-											</div>
-										</div>
-
-										<input type="submit" value="Submit" class="btn btn-skin btn-block btn-lg">
-
-										<p class="lead-footer">* We'll contact you by phone & email later</p>
-
-									</form>
-								</div>
-							</div>
-
-						</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -93,16 +40,36 @@
 	<!-- /Section: intro -->
 
 	<!-- Section: boxes -->
-    <section id="boxes" class="home-section paddingtop-80">
+    <section id="boxes" class="home-section paddingtop-40" >
 
-		<div class="container">
-			<div class="row">
+		<div class="container" >
+            <div class="row bg-gray">
+                <div class="col-12  ">
+                    <h2 class="h-bold text-center paddingtop-20">
+                        Our Services
+                    </h2>
+                </div>
+            </div>
+
+			<div class="row " style="margin-top:20px">
+				<div class="col-sm-3 col-md-3">
+					<div class="wow fadeInUp" data-wow-delay="0.2s">
+						<div class="box text-center ">
+
+							<i class="fa fa-book fa-3x circled bg-skin "></i>
+							<h4 class="h-bold">Projects Materials</h4>
+							<p>
+							We assist and guide Finanl year students with well researched and queality PROJECT WORKS, RESEARCH GUIDES and Project materials, at a very reduced and affordable price.
+							</p>
+						</div>
+					</div>
+				</div>
 				<div class="col-sm-3 col-md-3">
 					<div class="wow fadeInUp" data-wow-delay="0.2s">
 						<div class="box text-center">
 
-							<i class="fa fa-check fa-3x circled bg-skin"></i>
-							<h4 class="h-bold">Make an appoinment</h4>
+							<i class="fa fa-code fa-3x circled bg-skin"></i>
+							<h4 class="h-bold">Free Source Code</h4>
 							<p>
 							Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
 							</p>
@@ -112,20 +79,8 @@
 				<div class="col-sm-3 col-md-3">
 					<div class="wow fadeInUp" data-wow-delay="0.2s">
 						<div class="box text-center">
-
-							<i class="fa fa-list-alt fa-3x circled bg-skin"></i>
-							<h4 class="h-bold">Choose your package</h4>
-							<p>
-							Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3 col-md-3">
-					<div class="wow fadeInUp" data-wow-delay="0.2s">
-						<div class="box text-center">
-							<i class="fa fa-user-md fa-3x circled bg-skin"></i>
-							<h4 class="h-bold">Help by specialist</h4>
+							<i class="fa fa-user fa-3x circled bg-skin"></i>
+							<h4 class="h-bold">Hire a writer</h4>
 							<p>
 							Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
 							</p>
@@ -137,7 +92,7 @@
 						<div class="box text-center">
 
 							<i class="fa fa-hospital-o fa-3x circled bg-skin"></i>
-							<h4 class="h-bold">Get diagnostic report</h4>
+							<h4 class="h-bold">Software Development</h4>
 							<p>
 							Lorem ipsum dolor sit amet, nec te mollis utroque honestatis, ut utamur molestiae vix, graecis eligendi ne.
 							</p>
@@ -151,24 +106,24 @@
 	<!-- /Section: boxes -->
 
 
-	<section id="callaction" class="home-section paddingtop-40">
+	<section id="callaction" class="home-section paddingtop-40 ">
            <div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="callaction bg-gray">
+						<div class="callaction bg-gray" style="margin-bottom:40px">
 							<div class="row">
 								<div class="col-md-8">
 									<div class="wow fadeInUp" data-wow-delay="0.1s">
 									<div class="cta-text">
-									<h3>In an emergency? Need help now?</h3>
-									<p>Lorem ipsum dolor sit amet consectetur adipiscing elit uisque interdum ante eget faucibus. </p>
+									<h3>Hire a Writer Or a Software Developer</h3>
+									<p>Relax and Get the stress off your shoulders, writting could be tasking, Winnerwriter solves this problem for you and puts you through. </p>
 									</div>
 									</div>
 								</div>
 								<div class="col-md-4">
 									<div class="wow lightSpeedIn" data-wow-delay="0.1s">
 										<div class="cta-btn">
-										<a href="#" class="btn btn-skin btn-lg">Book an appoinment</a>
+										<a href="#" class="btn btn-skin btn-lg">Hire Now</a>
 										</div>
 									</div>
 								</div>
@@ -179,111 +134,15 @@
             </div>
 	</section>
 
-
-	<!-- Section: services -->
-    <section id="service" class="home-section nopadding paddingtop-60">
-
-		<div class="container">
-
-        <div class="row">
-			<div class="col-sm-6 col-md-6">
-				<div class="wow fadeInUp" data-wow-delay="0.2s">
-				<img src="img/dummy/img-1.jpg" class="img-responsive" alt="" />
-				</div>
-            </div>
-			<div class="col-sm-3 col-md-3">
-
-				<div class="wow fadeInRight" data-wow-delay="0.1s">
-                <div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-stethoscope fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Medical checkup</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
-				</div>
-
-				<div class="wow fadeInRight" data-wow-delay="0.2s">
-				<div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-wheelchair fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Nursing Services</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
-				</div>
-				<div class="wow fadeInRight" data-wow-delay="0.3s">
-				<div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-plus-square fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Pharmacy</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
-				</div>
-
-
-            </div>
-			<div class="col-sm-3 col-md-3">
-
-				<div class="wow fadeInRight" data-wow-delay="0.1s">
-                <div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-h-square fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Gyn Care</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
-				</div>
-
-				<div class="wow fadeInRight" data-wow-delay="0.2s">
-				<div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-filter fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Neurology</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
-				</div>
-				<div class="wow fadeInRight" data-wow-delay="0.3s">
-				<div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-user-md fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Sleep Center</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
-				</div>
-
-            </div>
-
-        </div>
-		</div>
-	</section>
-	<!-- /Section: services -->
-
-
 	<!-- Section: team -->
-    <section id="doctor" class="home-section bg-gray paddingbot-60">
-		<div class="container marginbot-50">
+    <section id="doctor" class="home-section bg-gray paddingbot-60 paddingtop-20">
+		<div class="container ">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
 					<div class="section-heading text-center">
-					<h2 class="h-bold">Doctors</h2>
-					<p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
+					<h2 class="h-bold">Meet Our Team Members</h2>
+					<p>Professional Researchers, Writers and Software Developers </p>
 					</div>
 					</div>
 					<div class="divider-short"></div>
@@ -297,9 +156,9 @@
 
             <div id="filters-container" class="cbp-l-filters-alignLeft">
                 <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All (<div class="cbp-filter-counter"></div>)</div>
-                <div data-filter=".cardiologist" class="cbp-filter-item">Cardiologist (<div class="cbp-filter-counter"></div>)</div>
-                <div data-filter=".psychiatrist" class="cbp-filter-item">Psychiatrist (<div class="cbp-filter-counter"></div>)</div>
-                <div data-filter=".neurologist" class="cbp-filter-item">Neurologist (<div class="cbp-filter-counter"></div>)</div>
+                <div data-filter=".cardiologist" class="cbp-filter-item">Developers (<div class="cbp-filter-counter"></div>)</div>
+                <div data-filter=".psychiatrist" class="cbp-filter-item">Writers (<div class="cbp-filter-counter"></div>)</div>
+                <div data-filter=".neurologist" class="cbp-filter-item">System Analyst (<div class="cbp-filter-counter"></div>)</div>
             </div>
 
             <div id="grid-container" class="cbp-l-grid-team">
@@ -387,7 +246,7 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
 					<div class="section-heading text-center">
-					<h2 class="h-bold">Our facilities</h2>
+					<h2 class="h-bold">Our Gallery</h2>
 					<p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
 					</div>
 					</div>

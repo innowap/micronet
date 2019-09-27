@@ -30,7 +30,7 @@
                         <p class="bold text-left">Monday - Saturday, 8am to 10pm </p>
                         </div>
                         <div class="col-sm-6 col-md-6">
-                        <p class="bold text-right">Call us now +62 008 65 001</p>
+                        <p class="bold text-right">Call us now +234 706 431 4883 </p>
                         </div>
                     </div>
                 </div>
