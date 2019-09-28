@@ -23,6 +23,7 @@
  @include('layouts.styles')
 <style>
         .errors{
+         
             color: red;
             font-size:14px;
 

@@ -27,6 +27,8 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 			  <ul class="nav navbar-nav">
 				<li class="active"><a href="{{ url('/') }}">Home</a></li>
+				<li><a href="#">Source Codes</a></li>
+				<li><a href="#">Projects</a></li>
 				<li><a href="#boxes">Service</a></li>
 				<li><a href="#doctor">Teams</a></li>
                 <li><a href="#facilities">Gallery</a></li>
