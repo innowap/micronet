@@ -14,6 +14,8 @@
 Route::get('/', function () {
     return view('home.index');
 });
+Route::resource('project', 'HomeProjectController');
+
 
 
 

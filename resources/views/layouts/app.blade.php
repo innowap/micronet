@@ -80,12 +80,12 @@
 </div>
 <footer class="app-footer">
     <div>
-        <a href="https://infyom.com">Infyom </a>
+        <a href="https://micronet.com.ng">Micronet Digital </a>
         <span>&copy; 2019 infyomLabs.</span>
     </div>
     <div class="ml-auto">
         <span>Powered by</span>
-        <a href="https://coreui.io">CoreUI</a>
+        <a href="#">Micronet</a>
     </div>
 </footer>
 </body>
