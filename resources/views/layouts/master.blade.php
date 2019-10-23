@@ -13,6 +13,13 @@
     <title>@yield('title')</title>
 
     <!-- css -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({
+                  google_ad_client: "ca-pub-5579641467854200",
+                  enable_page_level_ads: true
+             });
+        </script>
    @include('layouts.styles')
 
 
@@ -23,7 +30,7 @@
 
     <div id="wrapper">
 
-        @include('layouts.home_menu')
+       @yield('menu')
 
     @yield('content')
 

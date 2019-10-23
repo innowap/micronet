@@ -1,13 +1,11 @@
 @extends('layouts.master')
 @section('title', 'Micronet Digital')
 
-
+@section('menu')
+     @include('layouts.menu.index')
+@endsection
 
 @section('content')
-
-
-
-
 	<!-- Section: intro -->
     <section id="intro" class="intro ">
 		<div class="intro-content">

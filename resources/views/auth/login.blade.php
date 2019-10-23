@@ -23,7 +23,7 @@
  @include('layouts.styles')
 <style>
         .errors{
-         
+
             color: red;
             font-size:14px;
 
@@ -35,7 +35,8 @@
 <body class="page-top" data-spy="scroll" data-target=".navbar-custom">
 
     <div id="wrapper">
-        @include('layouts.home_menu')
+       @include('layouts.menu.index')
+
 
          <section id="intro" class="intro ">
             <div class="intro-content">
@@ -66,7 +67,7 @@
                                                         @endif
 												</div>
 											</div>
-											
+
 										</div>
 
 										<div class="row">
@@ -82,11 +83,11 @@
 												</div>
 												</div>
 
-											
+
 										</div>
 
 										<input type="submit" value="Login" class="btn btn-skin btn-block btn-lg">
-                                       
+
                                        <div style="margin-top: 10px">
                                          <a class="btn btn-primary px-2" href="{{ url('/password/reset') }}">
                                             Forgot password?
@@ -94,7 +95,7 @@
                                         <a href="{{ url('/register') }}" class="text-center">Register Now!</a>
                                        </div>
 
-                                       
+
 
 									</form>
 								</div>

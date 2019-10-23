@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Register | CoreUI | InfyOm Laravel Generator</title>
+    <title>Register |Micronet Digitalr</title>
     <meta name="description" content="CoreUI Template - InfyOm Laravel Generator">
 
 
@@ -34,7 +34,7 @@
 <body class="page-top" data-spy="scroll" data-target=".navbar-custom">
 
     <div id="wrapper">
-        @include('layouts.home_menu')
+        @include('layouts.menu.index')
 
          <section id="intro" class="intro ">
             <div class="intro-content">
